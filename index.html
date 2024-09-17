@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida em Roma</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0-roma.png" alt="">
+            <p>Dentro de uma biblioteca em Roma, encontrei uma carta antiga que falava sobre uma cidade perdida cheia de riquezas e segredos do Império Romano. Decidi seguir as pistas da carta e iniciar minha jornada!</p>
+            <button class="btn-proximo" data-proximo="1">Coliseu</button>
+            <button class="btn-proximo" data-proximo="2">Fórum Romano</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/coliseu.jfif" alt="">
+            <p>No Coliseu, você encontra uma inscrição antiga que aponta para a próxima pista nas catacumbas de Roma.</p>
+            <button class="btn-proximo" data-proximo="3">Explorar as catacumbas</button>
+            <button class="btn-proximo" data-proximo="4">Voltar e investigar mais o Coliseu</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>No Fórum Romano, você encontra um mapa escondido que leva às ruínas da Vila Adriana em Tivoli, onde está a próxima pista.</p>
+            <button class="btn-proximo" data-proximo="5">Viajar para Tivoli</button>
+            <button class="btn-proximo" data-proximo="6">Explorar o restante do Fórum</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Nas catacumbas, você encontra um símbolo que aponta para as Termas de Caracala como o próximo destino.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para as Termas de Caracala</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="Voltando para casa e desistindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Nas ruínas da Vila Adriana, você descobre um tesouro arqueológico que aponta para a última pista nas colinas de Roma.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para as colinas de Roma</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando o restante do Fórum, você se depara com um beco sem saída, sem novas pistas.</p>
+            <button class="btn-proximo" data-proximo="5">Ir para Tivoli</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Nas Termas de Caracala, a busca pela cidade perdida se intensifica. Você se depara com duas entradas misteriosas.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pela entrada à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pela entrada à direita</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>A entrada à esquerda leva você a uma câmara secreta com inscrições que revelam a entrada da cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>A entrada à direita termina em um corredor sem saída. Apesar de interessante, não há sinais da cidade perdida aqui.</p>
+            <button class="btn-proximo" data-proximo="9">Retornar e tentar a outra entrada</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="Encontrando uma cidade perdida em Roma">
+            <p>Dentro da cidade perdida, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar este lugar.</p>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
